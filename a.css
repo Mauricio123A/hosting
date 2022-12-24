@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    margin:0;
+    padding:0;
+}
+
+
+
+#Puntos {
+    font-size: 40px;
+    width: 150px;
+    height: 70px;
+    margin: 60px;
+    border-radius: 10px;
+    background-color: #af88ed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset -15px -8px #af30ed, -15px -8px #afffed, -7px -3px 40px #000000;
+}
+
+#PuntosMaximos{
+    font-size: 35px;
+    width: 210px;
+    height: 60px;
+    margin: 60px;
+    border-radius: 10px;
+    padding-left: 10px;
+    background-color: #afa8ed;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: inset -15px -8px #af30ed, -15px -8px #afffed, -7px -3px 40px #000000;
+}
+
+
+
+#Frame{
+    display: grid;
+    background-color: #000000;
+    width: 600px;
+    height: 600px;
+    height: calc(20px*30px);
+    margin: 1vh 10vw;
+    grid-template-columns: repeat(20, 30px);
+    grid-template-rows: repeat(20, 30px);
+    align-self: flex-end;
+    justify-self: center;
+    order: -1;
+}
+.Block{
+    width: 100%;
+    background-color: #000000;
+    border: 1px solid white;
+}
